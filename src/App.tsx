@@ -50,7 +50,7 @@ function App() {
           index
           element={
             <>
-              <PageTitle title="Home | Clean Water Ghana" />
+              <PageTitle title="Home | Clean Water Africa" />
               <LandingPage />
             </>
           }
@@ -60,7 +60,7 @@ function App() {
           path="/signup"
           element={
             <>
-              <PageTitle title="Sign Up | Clean Water Ghana" />
+              <PageTitle title="Sign Up | Clean Water Africa" />
               <SignUp />
             </>
           }
