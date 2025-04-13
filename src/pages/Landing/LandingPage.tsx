@@ -149,7 +149,7 @@ const LandingPage = () => {
         {/* Hero Text Content */}
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            💧 Quench Their Thirst: Bring Clean Water to Communities in Need
+            💧 Quench Their Thirst: <br/>Bring Clean Water to Communities in Need
           </h1>
           <p className="text-lg md:text-xl mb-8">
             Join us in our mission to provide sustainable access to clean and
