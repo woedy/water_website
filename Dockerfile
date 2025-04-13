@@ -2,7 +2,7 @@
 FROM node:16
 
 # Set the working directory.
-WORKDIR /god_bless_app
+WORKDIR /clean_water_ghana_pro
 
 # Copy package.json and package-lock.json (if available).
 COPY package*.json ./

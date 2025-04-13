@@ -1,5 +1,5 @@
 import React from 'react';
-import student from '../../images/user/student.png';
+import backgroundImg from '../../images/cover/cchh.png';
 
 const LandingPage = () => {
   return (
@@ -7,7 +7,7 @@ const LandingPage = () => {
       {/* Hero Section */}
       <header className="bg-blue-500 py-20 md:py-32 text-white text-center relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full object-cover object-center opacity-30">
-          <img src={student} alt="Clean Water Hero" className="w-full h-full" />
+          <img src={backgroundImg} alt="Clean Water Hero" className="w-full h-full object-cover" />
         </div>
         <div className="container mx-auto px-4 relative">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">

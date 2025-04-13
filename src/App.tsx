@@ -7,7 +7,6 @@ import PageTitle from './components/PageTitle';
 import DefaultLayout from './layout/DefaultLayout';
 import SignUp from './pages/Authentication/SignUp';
 import SignIn from './pages/Authentication/SignIn';
-import VerifyUser from './pages/Authentication/VerifyUser.tsx';
 
 
 const hiddenOnRoutes = [
@@ -51,7 +50,7 @@ function App() {
           index
           element={
             <>
-              <PageTitle title="Sign In | <Mr ICT />" />
+              <PageTitle title="Sign In | Clean Water Ghana" />
               <SignIn />
             </>
           }
@@ -61,7 +60,7 @@ function App() {
           path="/signup"
           element={
             <>
-              <PageTitle title="Sign Up | <Mr ICT />" />
+              <PageTitle title="Sign Up | Clean Water Ghana" />
               <SignUp />
             </>
           }
@@ -71,15 +70,7 @@ function App() {
 
    
 
-        <Route
-          path="/verify-user/:user_email"
-          element={
-            <>
-              <PageTitle title="Verify User | <Mr ICT />" />
-              <VerifyUser />
-            </>
-          }
-        />
+
    
 
   
