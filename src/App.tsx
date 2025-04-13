@@ -6,7 +6,7 @@ import PageTitle from './components/PageTitle';
 
 import DefaultLayout from './layout/DefaultLayout';
 import SignUp from './pages/Authentication/SignUp';
-import SignIn from './pages/Authentication/SignIn';
+import LandingPage from './pages/Landing/LandingPage';
 
 
 const hiddenOnRoutes = [
@@ -50,8 +50,8 @@ function App() {
           index
           element={
             <>
-              <PageTitle title="Sign In | Clean Water Ghana" />
-              <SignIn />
+              <PageTitle title="Home | Clean Water Ghana" />
+              <LandingPage />
             </>
           }
         />
