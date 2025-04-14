@@ -26,7 +26,7 @@ const LandingPage = () => {
           <a href="/" className="flex items-center">
             <img src={logoImg} alt="Your Logo" className="h-8 md:h-10" />
             <span className="font-bold text-lg md:text-xl ml-2">
-              Clean Water Africa
+              Restore Water Africa
             </span>
           </a>
 
@@ -141,7 +141,7 @@ const LandingPage = () => {
         <div className="absolute top-0 left-0 w-full h-full object-cover object-center opacity-40">
           <img
             src={backgroundImg}
-            alt="Clean Water Hero"
+            alt="Restore Water Hero"
             className="w-full h-full object-cover"
           />
         </div>
@@ -280,7 +280,7 @@ src={riverGhana}
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">5+</div>
-              <p className="text-lg">Clean Water Projects Completed</p>
+              <p className="text-lg">Restore Water Projects Completed</p>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">$50,000+</div>
@@ -413,7 +413,7 @@ src={olu}
       <footer className="bg-gray-800 py-8 text-black text-center">
         <div className="container mx-auto px-4">
           <p className="mb-2">
-            &copy; {new Date().getFullYear()} Clean Water Africa. All rights
+            &copy; {new Date().getFullYear()} Restore Water Africa. All rights
             reserved.
           </p>
           {/* Add social media links, contact information, etc. */}
